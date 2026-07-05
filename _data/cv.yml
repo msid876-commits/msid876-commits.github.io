@@ -135,7 +135,7 @@ cv:
       - name: LLM & Enterprise AI
         keywords: [RAG, evaluation (RAGAS · DeepEval · LangSmith · MLflow), prompt engineering, multi-agent orchestration, fine-tuning (LoRA / PEFT), guardrails, knowledge graphs, context engineering]
       - name: Models & Tooling
-        keywords: [Anthropic Claude API, Claude Code, LLaMA 3.x, IBM watsonx, Stable Diffusion, Ollama, vLLM, HuggingFace, PyTorch, LangChain / LangGraph, LlamaIndex, FastAPI, FAISS, ChromaDB]
+        keywords: [Anthropic Claude API, Claude Code, LLaMA 3.x, IBM watsonx, Stable Diffusion, Ollama, HuggingFace, PyTorch, FAISS, ChromaDB, FastAPI, familiar with vLLM · LangChain / LangGraph · LlamaIndex]
       - name: Languages & Infra
         keywords: [Python, SQL, Java, C++, Docker, GitHub Actions, Git]
       - name: Governance & Risk
