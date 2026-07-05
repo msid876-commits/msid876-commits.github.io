@@ -1,10 +1,10 @@
 cv:
   name: Mohsin Siddiqui
-  label: Applied AI Researcher
+  label: Applied AI Researcher | RAG · Machine Unlearning · Responsible Deployment
   email: siddiqmohsin@gmail.com
   location: Auckland, New Zealand
   image: ""
-  summary: Applied AI researcher working at the boundary between research and real-world deployment — RAG, machine unlearning, responsible deployment. 18+ years in regulated environments before returning to research.
+  summary: I work at the boundary between AI research and real-world enterprise deployment — most interested in what makes AI systems trustworthy in practice, not merely capable. I spent two decades taking emerging technology into regulated industries, and over the last two years retooled hands-on — a First Class Honours Master of Artificial Intelligence, research in RAG and machine unlearning, and production LLM systems built and evaluated end-to-end on open-source models. The through-line is evaluation, constraints, and controllability.
 
   social_networks:
     - network: GitHub
@@ -13,80 +13,90 @@ cv:
       username: mohsinseniorexecutive
 
   sections:
-    Research & Current Work:
+    Applied AI & LLM Systems:
       - company: Independent Applied AI Research
-        position: Sole designer & builder — multi-perspective OSINT platform
+        position: Multi-Perspective OSINT Analysis Platform — sole designer & builder
         location: Auckland, New Zealand
         start_date: 2026
         end_date: present
         highlights:
-          - 38 author-specific RAG corpora (~66,000 chunks) convened as an analyst panel — hybrid retrieval, stance-aware knowledge graph, provenance-gated grounding, bounded autonomous monitoring, claim-level evidence register.
+          - "Research platform for multi-perspective analysis of open-source geopolitical commentary: 38 author-specific RAG corpora (~66,000 chunks) convened as an analyst panel — perspective-conditioned hybrid retrieval (dense + BM25), corpus-derived stance-aware knowledge graph, synthesis surfacing convergence, tension & outliers with full provenance."
+          - "Controllability engineered as a research object: provenance-gated grounding, threshold-bounded autonomous monitoring, claim-level evidence register with per-analyst calibration scorecards. Python · SQLite · ChromaDB · FastAPI · local open-source models."
 
       - company: University of Auckland
-        position: Graduate Teaching Assistant & Research Assistant, MAI programme
+        position: Masters Thesis — Legal RAG under Regulatory Constraint (A+, First Class Honours)
+        location: Auckland, New Zealand
+        start_date: 2025
+        end_date: 2026
+        summary: '"Retrieval Augmented Generation for New Zealand Social Law in a Data-Scarce Scenario" — supervised by Dr. Qian Liu'
+        highlights:
+          - "Grounded, citation-aware RAG over NZ statutory law: section-aware semantic chunking (ChuLo Lite v2) with hybrid FAISS + BM25 retrieval, evaluated across a 5-experiment ablation — precision 0 → 33%, recall 0 → 50% over a naive dense baseline."
+          - "Core finding: segmentation and retrieval design are core determinants of legal AI trustworthiness — effective legal AI does not depend solely on larger models, but on disciplined engineering of the representations that feed them."
+
+      - company: Machine Unlearning Research (with Austin Fu)
+        position: RA-LCN — Retain-Aware Latent Concept Nulling (manuscript in preparation)
+        location: University of Auckland
+        start_date: 2025
+        end_date: present
+        highlights:
+          - "Co-authored a retraining-free machine unlearning framework: conceptual framework, foundational theory (boundary ambiguity, erasure creep), and retain-aware Mahalanobis projection — model-agnostic, validated on GPT-2 and Stable Diffusion v1.5. Directly safety-relevant: removing concepts from deployed models without retraining."
+
+      - company: University of Auckland
+        position: AI Education & Programme Governance
         location: Auckland, New Zealand
         start_date: 2025-11
         end_date: present
         highlights:
-          - AI Fundamentals course content; ethics-reviewed study of hackathon-based pedagogy; Student Representative, MAI Advisory & Operational Boards (Nov 2025 – May 2026).
+          - "Graduate Teaching Assistant & Research Assistant, Master of AI programme — AI Fundamentals course content; ethics-reviewed hackathon-pedagogy study; Student Representative, MAI Advisory & Operational Boards."
 
-      - company: University of Auckland
-        position: Masters Thesis — "Retrieval Augmented Generation for New Zealand Social Law in a Data-Scarce Scenario" (A+, First Class Honours)
-        location: Auckland, New Zealand
-        start_date: 2025
-        end_date: 2026
-        highlights:
-          - ChuLo Lite v2 section-aware chunking + hybrid FAISS/BM25 retrieval; five-experiment ablation; precision 0 → 33%, recall 0 → 50% over naive dense baseline.
-
-      - company: Machine Unlearning Research (with Austin Fu)
-        position: RA-LCN — Retain-Aware Latent Concept Nulling (manuscript in preparation)
-        location: Auckland, New Zealand
-        start_date: 2025
-        end_date: present
-        highlights:
-          - Conceptual framework, foundational MU theory (boundary ambiguity, erasure creep), retain-aware Mahalanobis projection design; validated on GPT-2 and Stable Diffusion v1.5.
-
-    Experience:
+    Enterprise & Sales Leadership:
       - company: Oil & Gas Contractor
         position: Digital Transformation Consultant
         location: Al Khobar, Saudi Arabia
         start_date: 2023-03
         end_date: 2023-10
+        highlights:
+          - Digital transformation of back-office operations in a compliance- and safety-critical oil & gas environment — workflow modernisation and operational transparency.
 
       - company: WELLS Group
         position: Sr. Business Development Manager
         location: Auckland, New Zealand
-        start_date: 2013
-        end_date: 2021
-        summary: Digital transformation & innovation of IoT services across New Zealand infrastructure and utilities.
+        start_date: 2013-05
+        end_date: 2021-11
+        summary: Digital Transformation & Innovation of IoT Services across New Zealand infrastructure & utilities
         highlights:
-          - Set up the national EV Charging Solutions business — go-to-market strategy, ChargeNet national contract, government EV Smart Grid co-funding, $1M+ pipeline in under a year.
-          - Con-X field-intelligence SaaS — sales operations, key partnerships, learning & development, customer success.
-          - Secondment to COO — forensic process analysis, services KPI measurement, Power BI reporting.
+          - "Setup National EV Solution Services Business: developed & executed EV Charging Solutions go-to market strategy — One Stop Shop for Electric Vehicle Charging Solution design, installation & implementation."
+          - Won EV Smart Grid co-funding from government, announced by MP for Energy & Resources (NZ Government-published case study on eeca.govt.nz).
+          - Grew EV Smart Solutions pipeline to $1M+ in under a year; won national upgrade & maintenance services contract for ChargeNet (New Zealand's largest operator).
+          - "Con-X Field Intelligence SaaS platform: end-to-end sales operations, key partnerships & learning and development; new business development & customer success across sectors; go-to-market strategy development & product development team member."
+          - "Secondment to COO: forensic process analysis, redesign & digital transformation delivering 'hyper transparency' to management; services KPI measurement, Power BI dashboarding & presentation to COO."
 
       - company: SMME
         position: Business Development Manager / General Manager
         location: Dubai, U.A.E.
-        start_date: 2006
-        end_date: 2013
-        summary: IT service management & governance training — ITIL, PRINCE2, COBIT, TOGAF, CGEIT, Solvay Executive Masters.
+        start_date: 2006-12
+        end_date: 2013-01
+        summary: IT Service Management & Governance Training — ITIL · PRINCE2 · SCRUM · COBIT · TOGAF · CGEIT · Executive Masters in IT Governance (Solvay Business School)
         highlights:
-          - Grew the business from the ground up to three continents; P&L for Dubai office; €5M ARR; BP, Etihad Airways, Schlumberger, ADIA as key accounts.
-          - Coached and career-advised 6,000+ professionals through public certification programmes.
+          - "Helped found and scale the business from the ground up to a presence on three continents: P&L responsibility for the Dubai office, sales team hiring & development, and general management of the business through the 2009 economic downturn."
+          - Coached and career-advised 6,000+ professionals through public certification programmes; consulted with corporate HR on training tracks and engaged IT leadership across the region.
+          - New business development to €5M ARR; acquired BP, Etihad Airways, Schlumberger, and Abu Dhabi Investment Authority (ADIA) as key regional accounts.
 
       - company: KPMG
         position: Sr. IT Advisor & National IT Security Officer
         location: Riyadh, Saudi Arabia
-        start_date: 2005
-        end_date: 2006
+        start_date: 2005-10
+        end_date: 2006-12
         highlights:
-          - Governance and information-risk advisory — STC ITIL analysis across seven IT Directorates; reports to STC VP Finance and the Governor of GOSI; Capital Markets Authority controls advisory.
+          - "Governance and information-risk advisory in high-trust environments: ITIL gap analysis across all seven Saudi Telecom IT Directorates; authored reports to STC's VP of Finance and the Governor of GOSI; IT controls advisory to the Capital Markets Authority."
 
       - company: Special Applications Group, AliReza Group
         position: Operations Engineer
         location: Al Khobar, Saudi Arabia
-        start_date: 2003
-        end_date: 2005
+        start_date: 2003-12
+        end_date: 2005-07
+        highlights:
+          - Lead Systems Engineer overseeing service delivery to 3,000+ customers (Siemens HiPath 4300); Sr. Financial Report Developer, PeopleSoft ERP payroll.
 
     Education:
       - institution: University of Auckland
@@ -110,9 +120,26 @@ cv:
         start_date: 1999
         end_date: 2003
 
-    Certifications:
-      - name: CISA · ITIL v3 Expert · COBIT · TOGAF · CGEIT · PRINCE2 · SCRUM Master
-        date: ""
+    Skills:
+      - name: LLM & Enterprise AI
+        keywords: [RAG, evaluation (RAGAS · DeepEval · LangSmith · MLflow), prompt engineering, multi-agent orchestration, fine-tuning (LoRA / PEFT), guardrails, knowledge graphs, context engineering]
+      - name: Models & Tooling
+        keywords: [Anthropic Claude API, Claude Code, LLaMA 3.x, IBM watsonx, Stable Diffusion, Ollama, vLLM, HuggingFace, PyTorch, LangChain / LangGraph, LlamaIndex, FastAPI, FAISS, ChromaDB]
+      - name: Languages & Infra
+        keywords: [Python, SQL, Java, C++, AWS, Azure, Docker, GitHub Actions, Git]
+      - name: Governance & Risk
+        keywords: [privacy & data sovereignty, IT governance, information risk, enterprise architecture]
+
+    Certificates:
+      - name: CISA
+        issuer: ISACA
+      - name: ITIL v3 Expert
+        issuer: AXELOS
+      - name: PRINCE2 Practitioner
+        issuer: AXELOS
+      - name: SCRUM Master
+        issuer: ""
+      - name: COBIT · TOGAF · CGEIT
         issuer: ""
 
     Languages:
