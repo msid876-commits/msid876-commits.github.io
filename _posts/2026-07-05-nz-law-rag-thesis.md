@@ -26,4 +26,4 @@ The conclusion I stand behind, quoting the thesis directly: chunking, metadata h
 
 I'm precise about the claim: I didn't ablate model scale, and a bigger model fed the wrong section would likely just fail more eloquently. The point is narrower and more actionable — in data-scarce, high-stakes domains, trustworthiness is won or lost in the retrieval layer, which is entirely within the engineer's control today.
 
-The full pipeline, all five experiments and the output logs are open source under MIT: [github.com/msid876-commits/nz-law-rag-thesis](https://github.com/msid876-commits/nz-law-rag-thesis). Supervised by Dr. Qian Liu at the University of Auckland; First Class Honours, 2026.
+The full pipeline, all five experiments and the output logs are open source under MIT: [github.com/siddiqmohsin/nz-law-rag-thesis](https://github.com/siddiqmohsin/nz-law-rag-thesis). Supervised by Dr. Qian Liu at the University of Auckland; First Class Honours, 2026.
